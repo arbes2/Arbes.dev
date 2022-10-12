@@ -4,10 +4,35 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
+const ProjectDemo = [{
+  title: 'Project 1', 
+   description: 'description'
+}, {
+  title: 'Project 1', 
+  description: 'description'
+}, {
+  title: 'Project 1', 
+  description: 'description'
+}, {
+  title: 'Project 1', 
+  description: 'description'
+
+}];
+
 const Projects = () => (
+  <Section nopadding id="projects">
+    <SectionDivider />
+    <SectionTitle main>Projects</SectionTitle>
+    <GridContainer>
+{ProjectDemo.map((project) => (
   <div>
-    Projects
+    {project.title}
+    <br/>
+    {project.description}
   </div>
+))}
+    </GridContainer>
+    </Section>
 );
 
 export default Projects;
