@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineQrcode } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
+import { IoMdQrScanner } from 'react-icons/io';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span} from './HeaderStyles';
 
@@ -10,7 +11,7 @@ const Header = () =>  (
   <Div1>
     <Link href='/'>
       <a style={{display: "flex", alignItems: "center", color: "white", marginBottom: "2px" }}>
-        <DiCssdeck size= "3rem" /><Span >Portfolio</Span>
+        <IoMdQrScanner size= "3rem" /><Span >Welcome</Span>
       </a>
     </Link>
   </Div1>

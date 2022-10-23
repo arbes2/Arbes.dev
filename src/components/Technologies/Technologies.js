@@ -33,7 +33,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with<br />
-            Node and Databases
+            Node-mongoDb-MySql
           </ListParagraph>
         </ListContainer>
     </ListItem>
