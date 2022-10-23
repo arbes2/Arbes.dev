@@ -14,7 +14,7 @@ const Hero = (props) => (
         Hi there! I'm Arbes Istrefi<br/>
         I bring ideas to life digitally.
       </SectionText>
-      <Button onClick={() => window.location = 'http://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = 'http://linkedin.com/in/arbes2/'}>Learn More</Button>
     </LeftSection>
     </Section>
 );
